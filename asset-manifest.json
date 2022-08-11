@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sinachband/static/css/main.5ab49136.css",
+    "main.js": "/sinachband/static/js/main.4c1afcb7.js",
+    "static/media/sinach-drums.jpg": "/sinachband/static/media/sinach-drums.42856d8ff824a41c5c77.jpg",
+    "static/media/sinach-bass.jpg": "/sinachband/static/media/sinach-bass.4f73f1535230c1be0780.jpg",
+    "static/media/sinach-guitar.jpg": "/sinachband/static/media/sinach-guitar.3aba8d927200ce2b9a77.jpg",
+    "static/media/sinach-vocals.jpg": "/sinachband/static/media/sinach-vocals.b958ac6bc7ed98d42454.jpg",
+    "static/media/sinach-worship.jpg": "/sinachband/static/media/sinach-worship.90f17ecc459dcc30ceaa.jpg",
+    "static/media/sinach-vocals2.jpeg": "/sinachband/static/media/sinach-vocals2.8bb9d8ee42dba73c923b.jpeg",
+    "index.html": "/sinachband/index.html",
+    "main.5ab49136.css.map": "/sinachband/static/css/main.5ab49136.css.map",
+    "main.4c1afcb7.js.map": "/sinachband/static/js/main.4c1afcb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ab49136.css",
+    "static/js/main.4c1afcb7.js"
+  ]
+}

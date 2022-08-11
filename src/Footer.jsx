@@ -13,7 +13,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-linkedin"></i>
+        <i className="fab fa-linkedin"></i>
       </a>
       <a
         className="anchor"
@@ -21,19 +21,19 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-github-square"></i>
+        <i className="fab fa-github-square"></i>
       </a>
       <a className="anchor" href=" " target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-instagram"></i>
+        <i className="fab fa-instagram"></i>
       </a>
       <a className="anchor" href=" " target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-youtube"></i>
+        <i className="fab fa-youtube"></i>
       </a>
       <a className="anchor" href=" " target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-spotify"></i>
+        <i className="fab fa-spotify"></i>
       </a>
       <a className="anchor" href=" " target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-tiktok"></i>
+        <i className="fab fa-tiktok"></i>
       </a>
     </footer>
   );

@@ -5,17 +5,26 @@ body {
     background-image: linear-gradient(to top, black, rgb(30, 38, 114));
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
 }
-.div1 {
-    font-family: 'Faster One', cursive;
-    font-size: 10rem;
+.container {
+  /* width: 60%; */
+  /* text-align: center; */
+  
+}
+.bandName {
+    /* font-family: 'Faster One', cursive; */
+    font-size: 8rem;
     color: white;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    text-align: center;
 
 }
 img {
-    height: 30rem; 
+    width:100%; 
     margin: 4.5rem 0 0 0;
     padding: 15px;
     border-radius: 5px;
@@ -31,14 +40,14 @@ img {
 }
 
 footer {
-     position: fixed;
+     /* position: sticky; */
     left: 0;
     bottom: 10px;
-    width: 100%;
-    
+    width: 100%;    
     font-size: 20px;
     color: rgb(245, 245, 245);  
     text-align: center;
+    margin-top: 7rem;
   
   }
   .anchor {
@@ -75,3 +84,14 @@ footer {
     color: aqua;
     cursor: pointer;
   }
+@media only screen and (max-width: 900px) {
+    
+    /* .container {
+      width: 20%;
+    } */
+    .bandName {
+      font-family: 'Faster One', cursive;
+      font-size: 5rem;
+      color: aqua;
+    }
+  } 

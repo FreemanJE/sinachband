@@ -1,19 +1,15 @@
-import { NavLink } from 'react-router-dom'
-import Pics from '../image/sinach-worship.jpg'
+import { NavLink } from "react-router-dom";
+import Pics from "../image/sinach4.jpg";
+
 
 const Home = () => {
+  return (
+    <div className="container1" style={{ textAlign: "center" }}>
+      <NavLink to="vocals">
+        <img className="homeImage1" src={Pics} alt="bass" />
+      </NavLink>
+    </div>
+  );
+};
 
-    return (
-        <>
-        
-            <nav style={{ textAlign: "center" }}>
-                <NavLink className="nav" to='sinach' >
-                    <img src={Pics} alt='bass' />
-                </NavLink> |{" "}
-
-            </nav>
-        </>
-    )
-}
-
-export default Home
+export default Home;

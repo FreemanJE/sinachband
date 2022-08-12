@@ -1,18 +1,14 @@
-import { NavLink } from 'react-router-dom'
-import Pics from '../image/sinach-bass.jpg'
+import { NavLink } from "react-router-dom";
+import Pics from "../image/sinach-bass.jpg";
 
 const Bass = () => {
+  return (
+    <div className="container1" style={{ textAlign: "center" }}>
+      <NavLink to="vocals">
+        <img src={Pics} alt="bass" />
+      </NavLink>
+    </div>
+  );
+};
 
-    return (
-        <>
-            <nav style={{ textAlign: "center" }}>
-                <NavLink className="nav" to='bass' >
-                    <img src={Pics} alt='bass' />
-                </NavLink> |{" "}
-
-            </nav>
-        </>
-    )
-}
-
-export default Bass
+export default Bass;

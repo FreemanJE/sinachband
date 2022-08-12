@@ -4,19 +4,14 @@ import Pics2 from "../image/sinach-vocals2.jpeg";
 
 const Vocals = () => {
   return (
-    <>
-      {/* <h1 style={{color: 'white'}}> Vocals </h1> */}
-      <nav style={{ textAlign: "center" }}>
-        <NavLink className="nav" to="vocals">
-          <img src={Pics} alt="bass" />
-        </NavLink>{" "}
-        |{" "}
-        <NavLink className="nav" to="vocals">
-          <img src={Pics2} alt="bass" />
-        </NavLink>{" "}
-        |{" "}
-      </nav>
-    </>
+    <div className="container1">
+      <NavLink to="vocals">
+        <img src={Pics} alt="bass" />
+      </NavLink>
+      <NavLink to="vocals">
+        <img src={Pics2} alt="bass" />
+      </NavLink>
+    </div>
   );
 };
 

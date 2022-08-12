@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
-// import Footer from '../Footer'
+
 
 export default function Navigation() {
   const style = ({ isActive }) => ({
@@ -11,10 +11,10 @@ export default function Navigation() {
 
   return (
     <div className="navContainer">
-        
-      <NavLink className="bandName" to="/">
-        SINACH
-      </NavLink>{" "}
+
+      <NavLink className="bandName" to="sinach"> SINACH
+      
+      </NavLink>      
       <nav style={{ textAlign: "center" }}>
         <NavLink style={style} to="sinach">
           Home
@@ -38,7 +38,7 @@ export default function Navigation() {
         |{" "}
       </nav>
       {/* <Outlet /> */}
-      {/* <div> <Footer /></div> */}
+     
     </div>
   );
 }

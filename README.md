@@ -1,17 +1,11 @@
-# SPA-Router-band-landing-page
+# Sinach Gospel Band
+ Sinach is one of the popular Gospel Singers in Africa whose songs have dominated both the media and worship center for more than a decade.
 
-A small exercise to react-router
+This project was created to practice  React router landing page.  I Love playing around with NavLink. 
 
-Please create a small React app for your favorite music band.  
-Your navigation should contain as many items as the members of your band (4+ members. We all love Daft Punk but we need more routes).  
-Use the [react-router](https://reactrouter.com/) package to handle your navigation.  
-Your solution doesn't have to have any transitions by default.
+To view the deployment on github, use this link: 
+[https://freemanje.github.io/sinach]( https://freemanje.github.io/sinach)
 
-![](preview.gif)
-
-#### BONUS
-
-You can experiment with transitions between pages as well. Here are some interesting libraries:
-
-- https://reactcommunity.org/react-transition-group/
-- https://www.framer.com/motion/
+### `npm start`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

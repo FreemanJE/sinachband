@@ -15,7 +15,7 @@ export default function Navigation() {
       <NavLink className="bandName" to="sinach"> SINACH
       
       </NavLink>      
-      <nav style={{ textAlign: "center" }}>
+      <nav style={{ textAlign: "center", color: "white" }}>
         <NavLink style={style} to="sinach">
           Home
         </NavLink>{" "}
@@ -37,7 +37,7 @@ export default function Navigation() {
         </NavLink>{" "}
         |{" "}
       </nav>
-      {/* <Outlet /> */}
+     
      
     </div>
   );

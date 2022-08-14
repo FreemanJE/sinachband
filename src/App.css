@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap'); */
 @import url("https://fonts.googleapis.com/css2?family=Faster+One&family=Monoton&family=Rubik+Distressed&family=Sofia&display=swap");
 :root {
   margin: 0;
@@ -17,20 +16,27 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-.bandName {
-  font-family: "Sofia", cursive;
 
+.bandName {
+  font-family: "Faster One", cursive;
   font-size: 5rem;
-  color: white;
-  /* padding-bottom: 20px; */
+  color: aqua;
   text-align: center;
   margin: 0px;
   text-decoration: none;
 }
-
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bassContainer {
+  position: relative;
+}
 img {
-  /* height: 35rem; */
-  width: 83%;
+  display: block;
+  width: 55vw;
   padding: 15px;
   margin: 55px 0px 0px 0;
   border-radius: 5px;
@@ -42,23 +48,46 @@ img {
     0 41.8px 43.4px rgba(238, 167, 167, 0.086),
     0 100px 80px rgba(248, 248, 248, 0.12);
 }
-.homeImage {
-  width: 110%;
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease;
 }
+
 img:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
+.bassContainer:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.bass2 {
+  padding: 70px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 footer {
-  /* position: sticky; */
   left: 0;
   bottom: 10px;
   width: 100%;
   font-size: 20px;
   color: rgb(245, 245, 245);
   text-align: center;
-  margin: 9rem 0 1rem 0;
+  margin: 4rem 0 0.5rem 0;
 }
 .anchor {
   text-decoration: none;
@@ -94,13 +123,19 @@ i {
   color: aqua;
   cursor: pointer;
 }
-@media only screen and (max-width: 900px) {
-  /* .container {
-      width: 20%;
-    } */
-  /* .bandName {
-      font-family: 'Faster One', cursive;
-      font-size: 5rem;
-      color: aqua;
-    } */
+@media only screen and (max-width: 400px) {
+  body {
+    max-height: 100vh;
+  }
+  .bandName {
+    font-family: "Faster One", cursive;
+    font-size: 3rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .anchor {
+    padding: 2px;
+  }
 }

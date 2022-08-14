@@ -4,7 +4,7 @@ import Pics2 from "../image/sinach-vocals2.jpeg";
 
 const Vocals = () => {
   return (
-    <div className="container1">
+    <div className="container1" style={{ textAlign: "center" }}>
       <NavLink to="vocals">
         <img src={Pics} alt="bass" />
       </NavLink>

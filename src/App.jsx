@@ -16,23 +16,12 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="home" element={<Home />} /> */}
-        {/* <Route path="sinach" element={<Home />} /> */}
-        <Route path="vocals" element={<Vocals />}>
-          {/* <Route
-            index
-            element={
-              <main style={{ padding: "1rem" }}>
-                <h2>Team</h2>
-              </main>
-            }
-          /> */}
-        </Route>
+
+        <Route path="vocals" element={<Vocals />}></Route>
         <Route path="guitar" element={<Guitar />} />
         <Route path="bass" element={<Bass />} />
         <Route path="drums" element={<Drums />} />
         <Route path="*" element={<Home />} />
-        
       </Routes>
       <Footer />
     </div>
